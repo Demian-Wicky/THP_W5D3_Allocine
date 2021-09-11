@@ -1,5 +1,5 @@
 # Allociné db (100% finished)
-A Ruby on rails application containing a database similar to Allociné (just Movie model)
+A Ruby on Rails application containing a database similar to Allociné (just a Movie model)
 
 ## Table of contents
 * [General info](#general-info)
