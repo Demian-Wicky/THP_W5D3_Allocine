@@ -1,5 +1,5 @@
 # Allociné db (100% finished)
-A Ruby on Rails application containing a database similar to Allociné (just a Movie model)
+A Ruby on Rails application containing a database similar to Allociné (just a Movie model). The data comes from the `db>seeds.rb` file.
 
 ## Table of contents
 * [General info](#general-info)
