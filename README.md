@@ -26,7 +26,7 @@ bundle install
 
 then
 
-```
+```ruby
 rails c
 ```
 
