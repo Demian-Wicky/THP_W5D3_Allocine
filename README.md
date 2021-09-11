@@ -20,7 +20,7 @@ Project is created with
 
 First, go to the RoR project folder and type:
 
-```
+```ruby
 bundle install
 ```
 
