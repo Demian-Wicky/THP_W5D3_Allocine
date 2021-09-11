@@ -10,6 +10,12 @@ require 'faker'
 100.times do
   user = Movie.create!(
     name: Faker::Movie.title,
-    year: rand(1895...(time.year))
+    year: rand(1895...2021),
+    genre: ["action", "horreur", "comédie", "drame"].sample,
+    synopsis: Faker::Lorem.paragraph(sentence_count: 3, supplemental: true, random_sentences_to_add: 2),
+    director: Faker::Name.name,
+    allocine_rating: rand(0.0..5.0).round(1),
+    my_rating: nil,#rand(0..5),
+    already_seen: false#Faker::Boolean.boolean(true_ratio: 0.25)
   )
 end
