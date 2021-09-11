@@ -1,24 +1,36 @@
-# README
+# The Gossip Project - MVC - Ruby Version (100% finished)
+A Ruby on rails application containing a database similar to Allociné (just Movie model)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-Things you may want to cover:
+## General info
 
-* Ruby version
+Made during [The Hacking Project](https://www.thehackingproject.org) course on Week5 Day3.
 
-* System dependencies
+## Technologies
 
-* Configuration
+Project is created with
 
-* Database creation
+- Ruby on Rails 5.2.3
 
-* Database initialization
+## Setup
 
-* How to run the test suite
+First, go to the RoR project folder and type:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
 
-* Deployment instructions
+then
 
-* ...
+```
+rails c
+```
+
+You can now display all movies with the table_print gem
+```
+tp Movie.all
+```
