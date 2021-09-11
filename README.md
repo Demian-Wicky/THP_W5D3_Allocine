@@ -1,4 +1,4 @@
-# The Gossip Project - MVC - Ruby Version (100% finished)
+# Allociné db (100% finished)
 A Ruby on rails application containing a database similar to Allociné (just Movie model)
 
 ## Table of contents
