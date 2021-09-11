@@ -30,7 +30,7 @@ then
 rails c
 ```
 
-You can now display all movies with the table_print gem
+You can now display all the movies with the table_print gem
 ```
 tp Movie.all
 ```
